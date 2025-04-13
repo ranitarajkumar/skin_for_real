@@ -1,0 +1,31 @@
+name: skin_for_real
+description: "A Flutter app for analyzing and improving skincare routines using Azure Face API."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core packages
+  http: ^0.13.6
+  image_picker: ^1.0.4
+  provider: ^6.1.4
+  shared_preferences: ^2.2.2
+  path_provider: ^2.0.15
+
+  # UI enhancements
+  blur: ^3.0.0
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
